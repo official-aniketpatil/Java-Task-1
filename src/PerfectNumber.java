@@ -22,6 +22,7 @@ public class PerfectNumber {
 		Scanner sc=new Scanner(System.in);
 		int num = sc.nextInt();
 		sc.close();
+		
         if( isPerfectNumber(num) ) {
         	System.out.println(num +" is a Perfect Number");
         } else {
