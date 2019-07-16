@@ -10,8 +10,9 @@ public class TempratureConversion {
 	}
 	
 	public static void main(String[] args) {
-		int choice=Integer.parseInt( args[0] );
-		float value=Float.parseFloat( args[1] );
+		int choice=Integer.parseInt(args[0]);
+		float value=Float.parseFloat(args[1]);
+		
 		switch(choice) {
 		case 0:
 			System.out.println( celsiusToFahrenheit(value) );

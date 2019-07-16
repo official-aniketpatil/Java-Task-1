@@ -23,7 +23,7 @@ public class PerfectNumber {
 		int num = sc.nextInt();
 		sc.close();
 		
-        if( isPerfectNumber(num) ) {
+        if(isPerfectNumber(num)) {
         	System.out.println(num +" is a Perfect Number");
         } else {
         	System.out.println(num + " is not a Perfect Number");

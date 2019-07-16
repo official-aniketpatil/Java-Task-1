@@ -18,11 +18,11 @@ public class FizzBuzz {
 	public static void main(String[] args) {
 		
 		for(int i = 1; i <= 100; i++) {
-			if( isDividedByThree(i) && isDividedByFive(i) ) {
+			if(isDividedByThree(i) && isDividedByFive(i)) {
 				System.out.print("FizzBuzz ");
-			}else if( isDividedByThree(i) ) {
+			}else if(isDividedByThree(i)) {
 				System.out.print("Fizz ");
-			}else if( isDividedByFive(i) ) {
+			}else if(isDividedByFive(i)) {
 				System.out.print("Buzz ");
 			}else {
 				System.out.print(i+" ");

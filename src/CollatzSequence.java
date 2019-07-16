@@ -14,7 +14,7 @@ public class CollatzSequence {
 		
 		if (num == 1) {
 			return;
-		} else if ( isEven(num) ) {
+		} else if (isEven(num)) {
 			printSequence(num/2);
 		} else {
 			printSequence(3*num+1);
